@@ -9,9 +9,9 @@ import time
 
 import cx_Oracle
 
-uid = "tasy"    # usuário
-pwd = "aloisk"   # senha
-db = "TASY"  # string de conexão do Oracle, configurado no
+uid = "*****"    # usuário
+pwd = "*****"   # senha
+db = "******"  # string de conexão do Oracle, configurado no
                 # cliente Oracle, arquivo tnsnames.ora
  
 conn = cx_Oracle.connect(uid+"/"+pwd+"@"+db) 
